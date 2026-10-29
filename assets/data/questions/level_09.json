@@ -1,0 +1,145 @@
+{
+  "levelId": 9,
+  "challenge": {
+    "type": "ai_classifier",
+    "title": "Klasifikasi Data Gambar AI",
+    "instruction": "Tentukan paradigma Machine Learning yang tepat untuk setiap skenario kasus di bawah ini.",
+    "cases": [
+      {"scenario": "Membedakan email Spam vs Normal menggunakan data ribuan email berlabel", "paradigm": "Supervised Learning"},
+      {"scenario": "Mengelompokkan pelanggan toko menjadi beberapa klaster gaya belanja tanpa ada label", "paradigm": "Unsupervised Learning"},
+      {"scenario": "Melatih bot bermain game catur dengan sistem skor menang (reward) dan kalah (penalty)", "paradigm": "Reinforcement Learning"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l9_q1",
+      "type": "multiple_choice",
+      "text": "Paradigma Machine Learning yang melatih model menggunakan data yang telah memiliki label jawaban benar dinamakan...",
+      "options": [
+        "Supervised Learning (Pembelajaran Terawasi)",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Manual Programming"
+      ],
+      "correctIndex": 0,
+      "explanation": "Supervised Learning menggunakan pasangan data input dan label target untuk melatih model memprediksi output pada data baru."
+    },
+    {
+      "id": "l9_q2",
+      "type": "multiple_choice",
+      "text": "Algoritma Machine Learning yang bertugas mengelompokkan data tanpa bantuan label dikenal sebagai...",
+      "options": [
+        "Unsupervised Learning (Clustering)",
+        "Dekomposisi Biner",
+        "Deepfake Rendering",
+        "Syntax Highlighting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unsupervised Learning menemukan pola, struktur, atau klaster tersembunyi dalam data tanpa instruksi label sebelumnya."
+    },
+    {
+      "id": "l9_q3",
+      "type": "multiple_choice",
+      "text": "Tiga lapisan dasar pada struktur Jaringan Saraf Tiruan (Artificial Neural Network) adalah...",
+      "options": [
+        "Input Layer, Hidden Layer(s), Output Layer",
+        "Start, Middle, Finish",
+        "RAM, CPU, ROM",
+        "Client, Server, Database"
+      ],
+      "correctIndex": 0,
+      "explanation": "ANN terdiri dari Input Layer (penerima fitur), Hidden Layers (lapisan komputasi bobot), dan Output Layer (pemberi prediksi)."
+    },
+    {
+      "id": "l9_q4",
+      "type": "multiple_choice",
+      "text": "Berikut adalah karakteristik fenomena Big Data yang dikenal sebagai prinsip 5V, KECUALI...",
+      "options": [
+        "Volume (ukuran data besar)",
+        "Velocity (kecepatan masuk tinggi)",
+        "Variety (variasi format beragam)",
+        "Vulnerability (kerusakan kabel)"
+      ],
+      "correctIndex": 3,
+      "explanation": "5V Big Data adalah Volume, Velocity, Variety, Veracity, dan Value. Vulnerability bukan pilar karakteristik data."
+    },
+    {
+      "id": "l9_q5",
+      "type": "multiple_choice",
+      "text": "Apa yang dimaksud dengan 'Bias Algoritma' dalam sistem Kecerdasan Buatan?",
+      "options": [
+        "Keputusan AI yang berat sebelah atau diskriminatif akibat data pelatihan yang tidak representatif atau mengandung prasangka",
+        "Kecepatan kipas server AI yang berputar miring",
+        "Kabel jaringan komputer yang terputus di tengah jalan",
+        "Kesalahan penulisan nama file di folder komputer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Algorithmic bias terjadi ketika data historis yang dipakai melatih AI memuat ketidakadilan, menghasilkan prediksi yang tidak adil bagi kelompok tertentu."
+    },
+    {
+      "id": "l9_q6",
+      "type": "multiple_choice",
+      "text": "Teknologi AI generatif yang mampu memanipulasi video atau suara seseorang agar terlihat dan terdengar seperti orang lain disebut...",
+      "options": [
+        "Deepfake",
+        "Blockchain",
+        "Firewall",
+        "Spreadsheet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Deepfake menggunakan deep learning (khususnya GANs) untuk merekayasa ekspresi wajah dan suara dengan tingkat kemiripan tinggi."
+    },
+    {
+      "id": "l9_q7",
+      "type": "multiple_choice",
+      "text": "Model pembelajaran mesin di mana agen cerdas belajar mengambil keputusan melalui penghargaan (reward) dan sanksi (penalty) disebut...",
+      "options": [
+        "Reinforcement Learning",
+        "Supervised Regression",
+        "Manual Input",
+        "Data Parsing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reinforcement Learning mengoptimalkan kebijakan tindakan agen untuk memaksimalkan akumulasi reward di masa depan."
+    },
+    {
+      "id": "l9_q8",
+      "type": "multiple_choice",
+      "text": "Perbedaan mendasar antara Data dan Informasi adalah...",
+      "options": [
+        "Data adalah fakta mentah, sedangkan informasi adalah data yang telah diolah dan memiliki makna atau konteks",
+        "Data selalu berupa teks, informasi selalu berupa video",
+        "Informasi tidak dapat disimpan di komputer",
+        "Keduanya adalah istilah yang sama persis tanpa perbedaan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Data mentah (seperti deretan angka 38, 39, 37) menjadi informasi setelah diproses (misalnya: grafik suhu tubuh pasien demam)."
+    },
+    {
+      "id": "l9_q9",
+      "type": "multiple_choice",
+      "text": "Model Kecerdasan Buatan yang dirancang untuk memproses dan menghasilkan teks manusia (seperti GPT atau Gemini) tergolong dalam kategori...",
+      "options": [
+        "LLM (Large Language Model)",
+        "Compiler Assembly",
+        "Router Firmware",
+        "Disk Defragmenter"
+      ],
+      "correctIndex": 0,
+      "explanation": "LLM dilatih menggunakan miliaran token teks untuk memahami konteks linguistik, menjawab pertanyaan, dan menalar bahasa alami."
+    },
+    {
+      "id": "l9_q10",
+      "type": "multiple_choice",
+      "text": "Langkah etis paling tepat bagi pengembang AI saat merancang sistem pengenalan wajah publik adalah...",
+      "options": [
+        "Menguji akurasi secara ketat pada berbagai kelompok demografis dan melindungi privasi data warga sesuai regulasi",
+        "Menyebarkan rekaman kamera warga tanpa izin",
+        "Mengabaikan komplain jika terjadi kesalahan identifikasi",
+        "Menjual database wajah ke pihak ilegal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prinsip etika AI menuntut akuntabilitas, transparansi, non-diskriminasi, dan perlindungan ketat terhadap privasi individu."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Pengenalan Informatika",
+      "objective": "Memahami ruang lingkup, bidang kajian, dan peran penting informatika dalam kehidupan modern.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 50,
+      "rewardCoins": 25,
+      "difficulty": "mudah",
+      "challengeType": "match_terms",
+      "challengeTitle": "Cocokkan Istilah Informatika"
+    },
+    {
+      "id": 2,
+      "title": "Berpikir Komputasional",
+      "objective": "Menerapkan 4 pilar computational thinking: dekomposisi, pola, abstraksi, dan perancangan algoritma.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 50,
+      "rewardCoins": 25,
+      "difficulty": "mudah",
+      "challengeType": "order_steps",
+      "challengeTitle": "Urutkan Langkah Penyelesaian Masalah"
+    },
+    {
+      "id": 3,
+      "title": "Algoritma dan Pemrograman",
+      "objective": "Membaca flowchart, variabel, tipe data, percabangan (if-else), dan perulangan (loops).",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 60,
+      "rewardCoins": 30,
+      "difficulty": "mudah",
+      "challengeType": "code_blocks",
+      "challengeTitle": "Susun Blok Kode Perulangan"
+    },
+    {
+      "id": 4,
+      "title": "Struktur Data Dasar",
+      "objective": "Memahami array, list, struktur tumpukan (stack LIFO), dan antrean (queue FIFO).",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 60,
+      "rewardCoins": 30,
+      "difficulty": "sedang",
+      "challengeType": "simulate_stack",
+      "challengeTitle": "Simulasi Push & Pop Stack"
+    },
+    {
+      "id": 5,
+      "title": "Sistem Komputer",
+      "objective": "Mengenal perangkat keras (CPU, RAM, Storage), perangkat lunak, OS, dan siklus instruksi.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 60,
+      "rewardCoins": 30,
+      "difficulty": "sedang",
+      "challengeType": "drag_drop",
+      "challengeTitle": "Kelompokkan Komponen Komputer"
+    },
+    {
+      "id": 6,
+      "title": "Jaringan Komputer dan Internet",
+      "objective": "Memahami topologi jaringan, alamat IP, model TCP/IP, protokol HTTP/HTTPS, dan DNS.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 70,
+      "rewardCoins": 35,
+      "difficulty": "sedang",
+      "challengeType": "connect_devices",
+      "challengeTitle": "Hubungkan Alur Pengiriman Paket"
+    },
+    {
+      "id": 7,
+      "title": "Basis Data",
+      "objective": "Memahami tabel, primary key, foreign key, relasi antar entitas, dan query dasar SQL.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 70,
+      "rewardCoins": 35,
+      "difficulty": "sedang",
+      "challengeType": "query_builder",
+      "challengeTitle": "Susun Kueri SQL Tabel Siswa"
+    },
+    {
+      "id": 8,
+      "title": "Keamanan Digital",
+      "objective": "Mengenali ancaman siber (malware, phishing, brute force), enkripsi, dan etika keamanan digital.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 70,
+      "rewardCoins": 35,
+      "difficulty": "menantang",
+      "challengeType": "phishing_detector",
+      "challengeTitle": "Deteksi Pesan & URL Phishing"
+    },
+    {
+      "id": 9,
+      "title": "Data dan Kecerdasan Buatan",
+      "objective": "Memahami konsep big data, machine learning, neural network, klasifikasi, dan etika AI.",
+      "questionCount": 10,
+      "passScore": 80,
+      "rewardXp": 80,
+      "rewardCoins": 40,
+      "difficulty": "menantang",
+      "challengeType": "ai_classifier",
+      "challengeTitle": "Klasifikasi Data Gambar AI"
+    },
+    {
+      "id": 10,
+      "title": "Tantangan Akhir Informatika",
+      "objective": "Mengintegrasikan seluruh topik informatika dari dasar hingga AI dalam uji komprehensif tingkat akhir.",
+      "questionCount": 20,
+      "passScore": 80,
+      "rewardXp": 150,
+      "rewardCoins": 100,
+      "difficulty": "menantang",
+      "challengeType": "final_boss",
+      "challengeTitle": "Studi Kasus Arsitektur Sistem Pintar"
+    }
+  ]
+}

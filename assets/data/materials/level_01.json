@@ -1,0 +1,26 @@
+{
+  "levelId": 1,
+  "sections": [
+    {
+      "id": "l1_m1",
+      "levelId": 1,
+      "order": 1,
+      "title": "Apa Itu Informatika?",
+      "content": "Informatika adalah disiplin ilmu yang mempelajari struktur, sifat, dan interaksi dari beberapa sistem yang dipakai untuk mengumpulkan data, memproses dan menyimpan hasil pemrosesan data, serta menampilkannya dalam bentuk informasi.\n\nDalam era modern, informatika bukan sekadar mengetik atau mengoperasikan komputer, melainkan pemahaman mendalam tentang bagaimana data diolah secara komputasional untuk memecahkan persoalan kehidupan nyata."
+    },
+    {
+      "id": "l1_m2",
+      "levelId": 1,
+      "order": 2,
+      "title": "Bidang-Bidang Utama Informatika",
+      "content": "Studi informatika mencakup beberapa bidang inti:\n\n1. **Berpikir Komputasional (BK)**: Landasan berpikir logis dan sistematis untuk memecahkan persoalan.\n2. **Teknologi Informasi dan Komunikasi (TIK)**: Pemanfaatan perangkat lunak dan keras untuk komunikasi serta kolaborasi.\n3. **Sistem Komputer (SK)**: Cara kerja perangkat keras, sistem operasi, dan instruksi mesin.\n4. **Jaringan Komputer dan Internet (JKI)**: Komunikasi data antar perangkat melalui protokol jaringan.\n5. **Analisis Data (AD)**: Pengumpulan, pengolahan, pemodelan, dan interpretasi data numerik maupun kategorikal.\n6. **Algoritma dan Pemrograman (AP)**: Pembuatan logika instruksi langkah demi langkah yang dapat dieksekusi mesin."
+    },
+    {
+      "id": "l1_m3",
+      "levelId": 1,
+      "order": 3,
+      "title": "Dampak Sosial Informatika & Etika Digital",
+      "content": "Perkembangan teknologi membawa pengaruh besar bagi peradaban dunia:\n\n- **Dampak Positif**: Otomasi pekerjaan rutin, komunikasi instan lintas benua, kemudahan akses ilmu pengetahuan, dan inovasi kesehatan.\n- **Dampak Negatif**: Polarisasi informasi, hoaks, ancaman privasi digital, serta ketergantungan layar.\n- **Etika Digital**: Sebagai Penjelajah Digital yang bertanggung jawab, kita wajib menjunjung tinggi hak cipta, menjaga keamanan data pribadi, tidak menyebarkan disinformasi, dan berpartisipasi positif di ruang maya."
+    }
+  ]
+}

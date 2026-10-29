@@ -1,0 +1,146 @@
+{
+  "levelId": 5,
+  "challenge": {
+    "type": "drag_drop",
+    "title": "Kelompokkan Komponen Komputer",
+    "instruction": "Kelompokkan perangkat berikut ke dalam kategori Hardware, Software, atau Storage.",
+    "items": [
+      {"name": "RAM", "category": "Hardware / Memori"},
+      {"name": "Linux OS", "category": "Software Sistem"},
+      {"name": "SSD NVMe", "category": "Secondary Storage"},
+      {"name": "CPU Processor", "category": "Hardware Pemroses"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l5_q1",
+      "type": "multiple_choice",
+      "text": "Bagian dari CPU yang bertanggung jawab melakukan perhitungan aritmatika dan logika perbandingan adalah...",
+      "options": [
+        "ALU (Arithmetic Logic Unit)",
+        "CU (Control Unit)",
+        "Harddisk Drive",
+        "Power Supply"
+      ],
+      "correctIndex": 0,
+      "explanation": "ALU adalah sirkuit digital dalam prosesor yang mengeksekusi operasi matematika (+, -, *, /) dan logika perbandingan."
+    },
+    {
+      "id": "l5_q2",
+      "type": "multiple_choice",
+      "text": "Memori komputer yang bersifat *volatile* (isinya hilang saat daya listrik padam) adalah...",
+      "options": [
+        "SSD (Solid State Drive)",
+        "Flashdisk USB",
+        "RAM (Random Access Memory)",
+        "ROM (Read Only Memory)"
+      ],
+      "correctIndex": 2,
+      "explanation": "RAM membutuhkan arus listrik stabil untuk menahan muatan datanya sehingga bersifat volatile."
+    },
+    {
+      "id": "l5_q3",
+      "type": "multiple_choice",
+      "text": "Siklus instruksi CPU yang berlangsung secara berurutan adalah...",
+      "options": [
+        "Fetch -> Decode -> Execute -> Store",
+        "Execute -> Fetch -> Sleep -> Print",
+        "Decode -> Store -> Fetch -> Format",
+        "Restart -> Delete -> Compile -> Run"
+      ],
+      "correctIndex": 0,
+      "explanation": "Siklus instruksi standar terdiri dari: Fetch (ambil instruksi), Decode (artikan perintah), Execute (jalankan), dan Store (simpan hasil)."
+    },
+    {
+      "id": "l5_q4",
+      "type": "multiple_choice",
+      "text": "Fungsi utama dari Sistem Operasi (Operating System) adalah...",
+      "options": [
+        "Hanya untuk menampilkan gambar latar desktop yang menarik",
+        "Menjembatani pengguna dengan perangkat keras serta mengelola alokasi sumber daya sistem",
+        "Mendinginkan kipas prosesor komputer secara mekanik",
+        "Membuat koneksi listrik di stopkontak dinding"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sistem operasi bertindak sebagai manajer sumber daya komputer (CPU, RAM, storage, piranti masukan/keluaran) dan antarmuka aplikasi."
+    },
+    {
+      "id": "l5_q5",
+      "type": "multiple_choice",
+      "text": "Manakah di bawah ini yang tergolong perangkat masukan (Input Device)?",
+      "options": [
+        "Monitor OLED",
+        "Printer Laser",
+        "Speaker",
+        "Keyboard Mekanikal"
+      ],
+      "correctIndex": 3,
+      "explanation": "Keyboard mengirimkan sinyal karakter dari ketukan jari pengguna ke dalam sistem komputer."
+    },
+    {
+      "id": "l5_q6",
+      "type": "multiple_choice",
+      "text": "Perbedaan utama antara SSD dan HDD konvensional adalah...",
+      "options": [
+        "SSD menggunakan chip memori flash tanpa komponen piringan magnetik yang berputar, sehingga jauh lebih cepat dan tahan guncangan",
+        "HDD tidak membutuhkan daya listrik sama sekali",
+        "SSD hanya bisa dipakai di komputer tahun 1980",
+        "HDD memiliki kecepatan transfer data 100x lebih cepat daripada SSD"
+      ],
+      "correctIndex": 0,
+      "explanation": "SSD mengandalkan sirkuit terpadu semikonduktor tanpa bagian mekanis bergerak, memberikan latensi sangat rendah dibanding piringan HDD."
+    },
+    {
+      "id": "l5_q7",
+      "type": "multiple_choice",
+      "text": "Memori berkecepatan paling tinggi yang terletak langsung di dalam prosesor inti CPU dinamakan...",
+      "options": [
+        "Register dan Cache L1/L2/L3",
+        "Harddisk Eksternal",
+        "SD Card",
+        "DVD-ROM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Register dan Cache CPU berada di dalam die silikon prosesor dengan siklus akses sekian nanodetik saja."
+    },
+    {
+      "id": "l5_q8",
+      "type": "multiple_choice",
+      "text": "Proses menyalakan komputer dan memuat kernel sistem operasi ke memori utama disebut...",
+      "options": [
+        "Booting",
+        "Defragmentasi",
+        "Overclocking",
+        "Phishing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Booting (diawali dari BIOS/UEFI) memverifikasi perangkat keras dan memuat OS ke dalam RAM agar sistem siap digunakan."
+    },
+    {
+      "id": "l5_q9",
+      "type": "multiple_choice",
+      "text": "Contoh Sistem Operasi open-source berbasis kernel monolitik yang digunakan luas di server dan smartphone (Android) adalah...",
+      "options": [
+        "Linux",
+        "Windows 95",
+        "Adobe Photoshop",
+        "Microsoft Word"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kernel Linux dikembangkan secara terbuka dan menjadi dasar bagi berbagai distribusi OS serta platform Android."
+    },
+    {
+      "id": "l5_q10",
+      "type": "multiple_choice",
+      "text": "Papan sirkuit utama tempat menancapkan CPU, RAM, kartu grafis, dan penyimpanan disebut...",
+      "options": [
+        "Motherboard (Mainboard)",
+        "Heat Sink",
+        "Mouse Pad",
+        "Ethernet Switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Motherboard adalah papan sirkuit cetak utama (PCB) yang memfasilitasi komunikasi bus elektrik antar semua komponen."
+    }
+  ]
+}

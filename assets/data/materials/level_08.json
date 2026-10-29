@@ -1,0 +1,33 @@
+{
+  "levelId": 8,
+  "sections": [
+    {
+      "id": "l8_m1",
+      "levelId": 8,
+      "order": 1,
+      "title": "Jenis Ancaman Siber Modern",
+      "content": "Dunia siber memiliki berbagai ancaman keamanan yang wajib diwaspadai:\n\n- **Malware (Malicious Software)**: Perangkat lunak perusak termasuk Virus, Worm, Trojan, dan Spyware.\n- **Ransomware**: Malware yang mengenkripsi seluruh file korban dan memeras sejumlah uang tebusan.\n- **DDoS (Distributed Denial of Service)**: Membanjiri server dengan jutaan request palsu sehingga layanan lumpuh dan tidak bisa diakses pengguna asli."
+    },
+    {
+      "id": "l8_m2",
+      "levelId": 8,
+      "order": 2,
+      "title": "Phishing dan Rekayasa Sosial",
+      "content": "**Phishing** adalah teknik manipulasi psikologis (*social engineering*) untuk memancing korban memberikan kredensial rahasia seperti kata sandi atau nomor kartu kredit melalui pesan/email palsu yang menyerupai institusi resmi.\n\nCiri khas serangan phishing:\n- Tautan URL palsu (misal: `www.b4nk-resmi.xyz` bukan domain asli).\n- Nada mendesak atau ancaman akun akan diblokir dalam 24 jam.\n- Meminta data sensitif secara tidak wajar melalui formulir terbuka."
+    },
+    {
+      "id": "l8_m3",
+      "levelId": 8,
+      "order": 3,
+      "title": "Kata Sandi Kuat dan 2FA",
+      "content": "Pertahanan lini pertama akun digital:\n\n1. **Kata Sandi Kuat**: Minimal 12 karakter kombinasi huruf besar, huruf kecil, angka, dan simbol khusus (misal: `!@#$%`). Hindari tanggal lahir atau urutan keyboard `qwerty`.\n2. **2FA (Two-Factor Authentication)**: Menambahkan lapisan keamanan kedua selain kata sandi, seperti kode OTP yang dikirim ke aplikasi authenticator atau token fisik. Meskipun kata sandi bocor, peretas tetap tidak bisa masuk tanpa faktor kedua."
+    },
+    {
+      "id": "l8_m4",
+      "levelId": 8,
+      "order": 4,
+      "title": "Prinsip Enkripsi Data & Kriptografi",
+      "content": "**Enkripsi** adalah proses mengubah teks biasa (*plaintext*) menjadi kode acak yang tidak dapat dibaca (*ciphertext*) menggunakan kunci matematika rahasia.\n\n- **Enkripsi Simetris**: Menggunakan kunci rahasia yang sama untuk proses enkripsi dan dekripsi (contoh: AES-256).\n- **Enkripsi Asimetris**: Menggunakan sepasang kunci, yaitu *Public Key* (dibagikan bebas untuk mengenkripsi) dan *Private Key* (hanya disimpan oleh pemilik untuk mendekripsi), seperti pada protokol RSA dan HTTPS."
+    }
+  ]
+}

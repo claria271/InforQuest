@@ -1,0 +1,146 @@
+{
+  "levelId": 6,
+  "challenge": {
+    "type": "connect_devices",
+    "title": "Hubungkan Alur Pengiriman Paket",
+    "instruction": "Urutkan simpul pengiriman paket data dari browser pengguna hingga server tujuan.",
+    "path": [
+      {"order": 1, "node": "Komputer Pengguna (Browser)"},
+      {"order": 2, "node": "Router / Gateway Lokal"},
+      {"order": 3, "node": "ISP (Internet Service Provider) & DNS Resolver"},
+      {"order": 4, "node": "Server Web Tujuan (Port 443 HTTPS)"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l6_q1",
+      "type": "multiple_choice",
+      "text": "Topologi jaringan di mana semua komputer terhubung ke perangkat pusat (seperti switch/hub) disebut...",
+      "options": [
+        "Topologi Bus",
+        "Topologi Star (Bintang)",
+        "Topologi Ring (Cincin)",
+        "Topologi Mesh Penuh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada topologi Star, setiap node memiliki kabel tersendiri yang terpusat ke perangkat switch/hub."
+    },
+    {
+      "id": "l6_q2",
+      "type": "multiple_choice",
+      "text": "Fungsi utama dari DNS (Domain Name System) di internet adalah...",
+      "options": [
+        "Menerjemahkan nama domain (seperti google.com) menjadi alamat IP numerik",
+        "Mempercepat kipas pendingin kabel LAN",
+        "Menghapus virus di smartphone secara otomatis",
+        "Membuat gambar resolusi 4K menjadi lebih tajam"
+      ],
+      "correctIndex": 0,
+      "explanation": "DNS berfungsi memetakan nama domain yang mudah diingat manusia ke alamat IP yang dipahami oleh komputer di jaringan."
+    },
+    {
+      "id": "l6_q3",
+      "type": "multiple_choice",
+      "text": "Panjang format alamat IPv4 adalah...",
+      "options": [
+        "16 bit",
+        "32 bit",
+        "64 bit",
+        "128 bit"
+      ],
+      "correctIndex": 1,
+      "explanation": "IPv4 terdiri atas 32 bit yang dipisahkan menjadi 4 oktet desimal (contoh: 192.168.0.1)."
+    },
+    {
+      "id": "l6_q4",
+      "type": "multiple_choice",
+      "text": "Alasan utama diciptakannya standar IPv6 dengan panjang 128 bit adalah...",
+      "options": [
+        "Jumlah alamat IPv4 yang berbasis 32 bit sudah hampir habis di seluruh dunia",
+        "Agar komputer tidak perlu memakai listrik lagi",
+        "Karena warna kabel jaringan berubah menjadi biru",
+        "Untuk membatasi jumlah pengguna internet hanya di benua Eropa"
+      ],
+      "correctIndex": 0,
+      "explanation": "IPv4 hanya menyediakan sekitar 4,3 miliar alamat unik. IPv6 menyediakan 3,4 × 10^38 alamat untuk miliaran perangkat baru di masa depan."
+    },
+    {
+      "id": "l6_q5",
+      "type": "multiple_choice",
+      "text": "Huruf 'S' pada protokol HTTPS merupakan singkatan dari...",
+      "options": [
+        "Speed",
+        "Secure",
+        "Simple",
+        "Server"
+      ],
+      "correctIndex": 1,
+      "explanation": "HTTPS singkatan dari Hypertext Transfer Protocol Secure, mengenkripsi pertukaran data menggunakan SSL/TLS."
+    },
+    {
+      "id": "l6_q6",
+      "type": "multiple_choice",
+      "text": "Perbedaan karakteristik utama protokol TCP dan UDP pada Transport Layer adalah...",
+      "options": [
+        "TCP connection-oriented dan menjamin urutan data sampai; UDP connectionless dan lebih cepat tanpa garansi pengiriman",
+        "UDP hanya bisa dipakai untuk mengirim teks, TCP untuk video saja",
+        "TCP tidak memerlukan jaringan internet sama sekali",
+        "Keduanya identik dalam kecepatan dan keandalan pengiriman"
+      ],
+      "correctIndex": 0,
+      "explanation": "TCP melakukan handshake dan perbaikan paket rusak (cocok untuk web/file), sedangkan UDP mengutamakan latensi rendah (cocok untuk video call & gaming)."
+    },
+    {
+      "id": "l6_q7",
+      "type": "multiple_choice",
+      "text": "Perangkat keras jaringan yang bertugas meneruskan dan memilih rute terbaik bagi paket data antar jaringan yang berbeda disebut...",
+      "options": [
+        "Router",
+        "Printer",
+        "Webcam",
+        "Sound Card"
+      ],
+      "correctIndex": 0,
+      "explanation": "Router membaca alamat IP tujuan pada header paket data untuk menentukan lintasan rute terbaik."
+    },
+    {
+      "id": "l6_q8",
+      "type": "multiple_choice",
+      "text": "Nomor port standar yang digunakan untuk lalu lintas aman HTTPS adalah...",
+      "options": [
+        "Port 80",
+        "Port 443",
+        "Port 21",
+        "Port 25"
+      ],
+      "correctIndex": 1,
+      "explanation": "Port 80 dipakai oleh HTTP standar (tanpa enkripsi), sedangkan Port 443 adalah port standar untuk komunikasi terenkripsi HTTPS."
+    },
+    {
+      "id": "l6_q9",
+      "type": "multiple_choice",
+      "text": "Teknologi jaringan tanpa kabel yang umum digunakan untuk area lokal seperti rumah dan kafe adalah...",
+      "options": [
+        "Wi-Fi (Wireless Fidelity - IEEE 802.11)",
+        "Kabel Fiber Optik Bawah Laut",
+        "Kabel Coaxial Antena TV",
+        "Port VGA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wi-Fi memanfaatkan spektrum gelombang radio 2.4 GHz atau 5 GHz untuk menghubungkan piranti ke Local Area Network (LAN)."
+    },
+    {
+      "id": "l6_q10",
+      "type": "multiple_choice",
+      "text": "Perintah terminal yang digunakan untuk menguji konektivitas dan latensi pengiriman paket ke alamat IP tujuan adalah...",
+      "options": [
+        "ping",
+        "format",
+        "delete",
+        "shutdown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perintah `ping` mengirimkan paket ICMP Echo Request dan mencatat waktu respon (Round Trip Time) dari server tujuan."
+    }
+  ]
+}

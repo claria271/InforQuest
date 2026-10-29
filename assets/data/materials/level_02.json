@@ -1,0 +1,33 @@
+{
+  "levelId": 2,
+  "sections": [
+    {
+      "id": "l2_m1",
+      "levelId": 2,
+      "order": 1,
+      "title": "Konsep Dasar Berpikir Komputasional",
+      "content": "Berpikir Komputasional (Computational Thinking) adalah proses pemecahan masalah yang melibatkan perumusan masalah beserta solusinya, sedemikian rupa sehingga solusi tersebut dapat secara efektif dijalankan oleh agen pemroses informasi, baik manusia maupun komputer.\n\nEmpat pilar utama Berpikir Komputasional adalah: Dekomposisi, Pengenalan Pola, Abstraksi, dan Perancangan Algoritma."
+    },
+    {
+      "id": "l2_m2",
+      "levelId": 2,
+      "order": 2,
+      "title": "Pilar 1 & 2: Dekomposisi dan Pola",
+      "content": "1. **Dekomposisi (Decomposition)**:\nMemecah masalah yang rumit atau besar menjadi bagian-bagian kecil yang lebih sederhana dan mudah dikelola. Contoh: merancang aplikasi pengatur jadwal belajar dengan membaginya menjadi modul login, database mata pelajaran, alarm pengingat, dan antarmuka.\n\n2. **Pengenalan Pola (Pattern Recognition)**:\nMelihat kesamaan, tren, atau keteraturan dalam masalah-masalah kecil tersebut untuk membantu memprediksi dan menerapkan solusi yang sudah terbukti efektif di masa lalu."
+    },
+    {
+      "id": "l2_m3",
+      "levelId": 2,
+      "order": 3,
+      "title": "Pilar 3: Abstraksi",
+      "content": "**Abstraksi (Abstraction)** adalah kemampuan menyaring dan memusatkan perhatian pada informasi yang benar-benar relevan serta mengabaikan detail-detail yang tidak penting.\n\nContoh konkret: Peta jalur kereta MRT/KRL hanya menampilkan stasiun perhentian dan jalur warna tanpa perlu menggambarkan setiap belokan pohon, bangunan rumah penduduk, atau tinggi tiang listrik di sepanjang jalur kereta."
+    },
+    {
+      "id": "l2_m4",
+      "levelId": 2,
+      "order": 4,
+      "title": "Pilar 4: Perancangan Algoritma",
+      "content": "**Perancangan Algoritma (Algorithm Design)** adalah proses menyusun aturan langkah demi langkah yang logis, berurutan, tidak ambigu, dan terbatas (finite) untuk menyelesaikan masalah tertentu atau menyelesaikan tugas tertentu.\n\nKriteria algoritma yang baik:\n- Finiteness: pasti berhenti setelah sejumlah langkah.\n- Definiteness: setiap instruksi jelas dan tidak membingungkan.\n- Input & Output: memiliki masukan dan menghasilkan luaran yang diharapkan."
+    }
+  ]
+}

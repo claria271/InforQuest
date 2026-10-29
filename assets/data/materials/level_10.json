@@ -1,0 +1,12 @@
+{
+  "levelId": 10,
+  "sections": [
+    {
+      "id": "l10_m1",
+      "levelId": 10,
+      "order": 1,
+      "title": "Rangkuman Komprehensif Seluruh Ranah Informatika",
+      "content": "Selamat telah mencapai puncak petualangan di Level 10!\n\nDi tingkat akhir ini, seluruh pemahaman Anda akan diuji secara holistik:\n1. **Fondasi Berpikir**: Menerapkan dekomposisi dan abstraksi pada arsitektur sistem berskala besar.\n2. **Koding & Algoritma**: Menilai efisiensi waktu algoritma (Big-O) dan pemilihan struktur data yang tepat (Array vs Stack vs Queue vs Graph).\n3. **Mesin Komputasi**: Menghubungkan eksekusi software dengan CPU, RAM, dan sistem operasi pendukung.\n4. **Konektivitas Global**: Arsitektur jaringan internet, keamanan protokol HTTPS, dan pencegahan ancaman siber.\n5. **Penyimpanan & Wawasan**: Perancangan basis data relasional normalisasi dan pengolahan data analitik berbasis Machine Learning.\n\nPersiapkan diri Anda untuk menyelesaikan 20 pertanyaan integratif tingkat mahir dan raih gelar kehormatan **Master Informatika**!"
+    }
+  ]
+}

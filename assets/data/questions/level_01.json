@@ -1,0 +1,146 @@
+{
+  "levelId": 1,
+  "challenge": {
+    "type": "match_terms",
+    "title": "Cocokkan Istilah Informatika",
+    "instruction": "Pasangkan istilah informatika di sebelah kiri dengan deskripsi fungsinya yang tepat di sebelah kanan.",
+    "pairs": [
+      {"left": "Hardware", "right": "Komponen fisik komputer seperti CPU dan keyboard"},
+      {"left": "Software", "right": "Program atau instruksi logika yang dijalankan komputer"},
+      {"left": "Brainware", "right": "Manusia yang mengoperasikan dan mengelola sistem komputer"},
+      {"left": "Data", "right": "Fakta mentah yang belum diolah menjadi informasi"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l1_q1",
+      "type": "multiple_choice",
+      "text": "Apa definisi utama dari disiplin ilmu Informatika?",
+      "options": [
+        "Ilmu yang hanya mempelajari cara merakit komputer fisik",
+        "Ilmu tentang struktur, sifat, dan pengolahan data menjadi informasi secara komputasional",
+        "Ilmu mengetik cepat pada aplikasi pengolah kata",
+        "Ilmu merancang sambungan kabel listrik gedung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Informatika adalah disiplin ilmu yang mempelajari pengumpulan, pemrosesan, penyimpanan, dan penyajian data menjadi informasi melalui sistem komputasi."
+    },
+    {
+      "id": "l1_q2",
+      "type": "multiple_choice",
+      "text": "Berikut ini yang BUKAN merupakan bidang kajian utama informatika adalah...",
+      "options": [
+        "Berpikir Komputasional",
+        "Algoritma dan Pemrograman",
+        "Astronomi Observasional",
+        "Jaringan Komputer dan Internet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Astronomi observasional adalah cabang ilmu fisika/antariksa, bukan merupakan bidang kajian kurikulum informatika."
+    },
+    {
+      "id": "l1_q3",
+      "type": "multiple_choice",
+      "text": "Unsur yang berperan sebagai perancang, pengembang, dan pengguna sistem komputer disebut...",
+      "options": [
+        "Hardware",
+        "Software",
+        "Brainware",
+        "Firmware"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brainware merujuk pada manusia pengguna, operator, analis, atau programmer yang mengelola sistem komputer."
+    },
+    {
+      "id": "l1_q4",
+      "type": "multiple_choice",
+      "text": "Dua bentuk representasi data yang diolah oleh sistem komputer paling mendasar adalah...",
+      "options": [
+        "Angka biner 0 dan 1",
+        "Huruf alfabet latin A sampai Z",
+        "Warna merah, hijau, dan biru",
+        "Simbol matematika saja"
+      ],
+      "correctIndex": 0,
+      "explanation": "Komputer digital memproses seluruh informasi dalam bentuk sinyal biner yang direpresentasikan oleh angka 0 (mati/rendah) dan 1 (hidup/tinggi)."
+    },
+    {
+      "id": "l1_q5",
+      "type": "multiple_choice",
+      "text": "Salah satu dampak positif perkembangan teknologi informasi dalam bidang pendidikan adalah...",
+      "options": [
+        "Ketergantungan bermain game daring sepanjang malam",
+        "Akses materi pembelajaran berkualitas secara terbuka dan fleksibel",
+        "Menyebarnya informasi hoaks tanpa verifikasi",
+        "Berkurangnya interaksi sosial tatap muka secara drastis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Teknologi informasi memfasilitasi e-learning, materi digital terbuka, dan kemudahan belajar mandiri dari mana saja."
+    },
+    {
+      "id": "l1_q6",
+      "type": "multiple_choice",
+      "text": "Mengapa verifikasi sumber informasi sangat penting dalam beraktivitas di dunia maya?",
+      "options": [
+        "Agar kita mendapatkan banyak follower secara instan",
+        "Untuk mencegah penyebaran disinformasi dan hoaks",
+        "Agar komputer kita terhindar dari debu fisik",
+        "Untuk mempercepat loading baterai ponsel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verifikasi sumber memastikan kebenaran fakta sebelum menyebarkannya sehingga ruang digital tetap sehat dan bebas hoaks."
+    },
+    {
+      "id": "l1_q7",
+      "type": "multiple_choice",
+      "text": "Bidang informatika yang mempelajari interaksi manusia dengan perangkat keras dan instruksi mesin disebut...",
+      "options": [
+        "Sistem Komputer",
+        "Seni Lukis Digital",
+        "Akuntansi Komputasi",
+        "Manajemen Proyek Umum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sistem Komputer (SK) berfokus pada arsitektur hardware, interaksi komponen mesin, dan sistem operasi."
+    },
+    {
+      "id": "l1_q8",
+      "type": "multiple_choice",
+      "text": "Sikap etis yang benar saat menggunakan hasil karya orang lain di internet adalah...",
+      "options": [
+        "Mengklaimnya sebagai karya ciptaan sendiri tanpa izin",
+        "Mencantumkan atribusi sumber dan mematuhi lisensi hak cipta",
+        "Menghapus tanda watermark penulis aslinya",
+        "Menjualnya kembali secara ilegal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Menghormati hak cipta dengan mencantumkan sumber pembuat dan menaati ketentuan lisensi adalah bagian dari etika digital."
+    },
+    {
+      "id": "l1_q9",
+      "type": "multiple_choice",
+      "text": "Satuan data terkecil dalam sistem komputasi digital adalah...",
+      "options": [
+        "Byte",
+        "Bit",
+        "Kilobyte",
+        "Gigabyte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bit (Binary Digit) bernilai 0 atau 1 adalah unit data terkecil. 1 Byte terdiri atas 8 bit."
+    },
+    {
+      "id": "l1_q10",
+      "type": "multiple_choice",
+      "text": "Pemanfaatan komputasi untuk memecahkan persoalan dunia nyata secara logis dan efektif dikenal sebagai penerapan...",
+      "options": [
+        "Berpikir Komputasional",
+        "Hafalan Rumus Matematika",
+        "Keterampilan Mengetik 10 Jari",
+        "Pencarian Manual di Perpustakaan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berpikir Komputasional merupakan metode penyelesaian masalah menggunakan konsep dan teknik ilmu informatika."
+    }
+  ]
+}

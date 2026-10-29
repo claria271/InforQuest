@@ -1,0 +1,33 @@
+{
+  "levelId": 7,
+  "sections": [
+    {
+      "id": "l7_m1",
+      "levelId": 7,
+      "order": 1,
+      "title": "Pengenalan Basis Data Relasional",
+      "content": "**Basis Data (Database)** adalah kumpulan data yang terorganisasi secara terstruktur dan disimpan secara elektronik di sistem komputer.\n\nDBMS (Database Management System) seperti MySQL, PostgreSQL, dan SQLite mengelola integritas data, keamanan akses, dan efisiensi pencarian informasi skala besar dibanding sekadar menyimpan data di lembar sebar berkas teks terpisah."
+    },
+    {
+      "id": "l7_m2",
+      "levelId": 7,
+      "order": 2,
+      "title": "Tabel, Kolom (Field), dan Baris (Record)",
+      "content": "Struktur basis data relasional diatur dalam bentuk dua dimensi:\n\n- **Tabel**: Wadah data untuk satu entitas spesifik, misal tabel `Siswa` atau tabel `Nilai`.\n- **Kolom (Field/Atribut)**: Mewakili karakteristik atau jenis data tertentu (misal: `nama`, `tanggal_lahir`, `kelas`).\n- **Baris (Record/Tuple)**: Mewakili satu instans data lengkap milik satu objek (misal: satu baris data milik siswa bernama Budi)."
+    },
+    {
+      "id": "l7_m3",
+      "levelId": 7,
+      "order": 3,
+      "title": "Kunci: Primary Key & Foreign Key",
+      "content": "- **Primary Key (Kunci Utama)**: Kolom unik yang menjadi pembeda mutlak antar baris data dalam satu tabel. Nilai primary key tidak boleh duplikat dan tidak boleh kosong (`NOT NULL`). Contoh: NISN siswa atau NIK KTP.\n- **Foreign Key (Kunci Asing)**: Kolom pada suatu tabel yang merujuk pada Primary Key tabel lain untuk membentuk hubungan relasi (One-to-Many atau Many-to-Many)."
+    },
+    {
+      "id": "l7_m4",
+      "levelId": 4,
+      "order": 4,
+      "title": "Dasar Query SQL (Structured Query Language)",
+      "content": "Operasi dasar manipulasi data SQL (CRUD):\n\n- **SELECT**: Mengambil data dari tabel.\n  `SELECT nama, kelas FROM siswa WHERE nilai >= 80;`\n- **INSERT**: Menambahkan baris data baru.\n  `INSERT INTO siswa (nama, kelas) VALUES ('Siti', '10-A');`\n- **UPDATE**: Mengubah data yang sudah ada.\n  `UPDATE siswa SET kelas = '11-A' WHERE id = 12;`\n- **DELETE**: Menghapus baris data tertentu.\n  `DELETE FROM siswa WHERE id = 15;`"
+    }
+  ]
+}

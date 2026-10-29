@@ -1,0 +1,40 @@
+{
+  "levelId": 6,
+  "sections": [
+    {
+      "id": "l6_m1",
+      "levelId": 6,
+      "order": 1,
+      "title": "Topologi Jaringan Komputer",
+      "content": "Jaringan komputer adalah sistem yang menghubungkan dua atau lebih komputer untuk berbagi data dan sumber daya.\n\nTopologi populer:\n- **Star (Bintang)**: Seluruh perangkat terhubung ke switch pusat. Paling umum digunakan karena jika satu kabel putus, perangkat lain tidak terganggu.\n- **Bus**: Semua perangkat terhubung ke satu kabel utama bersama.\n- **Ring (Cincin)**: Sinyal mengalir melingkar satu arah melalui simpul-simpul terhubung.\n- **Mesh**: Setiap perangkat terhubung langsung ke banyak perangkat lain, sangat andal tetapi biaya instalasi tinggi."
+    },
+    {
+      "id": "l6_m2",
+      "levelId": 6,
+      "order": 2,
+      "title": "Model OSI dan TCP/IP",
+      "content": "Komunikasi data distandarisasi agar berbagai merek perangkat keras dapat saling bertukar informasi:\n\n- **Model TCP/IP (4 Lapisan Utama)**:\n  1. *Application Layer*: HTTP, FTP, SMTP, DNS.\n  2. *Transport Layer*: TCP (andal dan berurutan) & UDP (cepat tanpa garansi paket).\n  3. *Internet Layer*: Pengalamatan IP (IPv4 & IPv6) dan routing paket.\n  4. *Network Access / Link Layer*: Komunikasi fisik ethernet kabel atau gelombang radio WiFi."
+    },
+    {
+      "id": "l6_m3",
+      "levelId": 6,
+      "order": 3,
+      "title": "Alamat IP: IPv4 vs IPv6",
+      "content": "**IP Address** adalah identitas unik numerik bagi setiap perangkat di jaringan:\n\n- **IPv4**: Menggunakan format 32-bit, ditulis dalam 4 desimal terpisah titik (contoh: `192.168.1.1`). Total alamat sekitar 4,3 miliar dan kini hampir habis secara global.\n- **IPv6**: Menggunakan format 128-bit heksadesimal terpisah titik dua (contoh: `2001:0db8:85a3::8a2e:0370:7334`). Menyediakan kuadriliun alamat unik untuk era Internet of Things (IoT)."
+    },
+    {
+      "id": "l6_m4",
+      "levelId": 6,
+      "order": 4,
+      "title": "Protokol Web: HTTP vs HTTPS",
+      "content": "- **HTTP (Hypertext Transfer Protocol)**: Protokol dasar pertukaran halaman web. Data dikirim dalam bentuk teks polos (*plain text*) sehingga rawan disadap di jaringan publik.\n- **HTTPS (HTTP Secure)**: Komunikasi web yang dienkripsi menggunakan protokol **TLS/SSL**. Menjamin kerahasiaan (*confidentiality*) dan keaslian (*integrity*) data, seperti saat transaksi e-commerce atau memasukkan password."
+    },
+    {
+      "id": "l6_m5",
+      "levelId": 6,
+      "order": 5,
+      "title": "DNS (Domain Name System)",
+      "content": "**DNS** sering disebut sebagai buku telepon internet.\n\nManusia lebih mudah mengingat nama domain alfabet seperti `www.kemdikbud.go.id` dibanding menghafal angka IP numerik `103.111.xxx.xxx`. Server DNS bertugas menerjemahkan nama domain yang Anda ketik di browser menjadi alamat IP tujuan sebenarnya di server internet."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "levelId": 9,
+  "sections": [
+    {
+      "id": "l9_m1",
+      "levelId": 9,
+      "order": 1,
+      "title": "Data, Informasi, dan Big Data",
+      "content": "- **Data**: Fakta mentah yang belum diolah (angka, teks, citra).\n- **Informasi**: Data yang telah diproses, diorganisasi, dan memiliki konteks makna bagi pengambil keputusan.\n- **Big Data**: Fenomena ledakan data dengan karakteristik **5V**: Volume (ukuran masif), Velocity (kecepatan masuk yang sangat tinggi), Variety (keragaman format teks/audio/video), Veracity (tingkat kebenaran), dan Value (nilai manfaat bisnis/sains)."
+    },
+    {
+      "id": "l9_m2",
+      "levelId": 9,
+      "order": 2,
+      "title": "Konsep Machine Learning",
+      "content": "Kecerdasan Buatan (AI) adalah bidang ilmu komputer yang bertujuan menciptakan mesin yang mampu meniru kecerdasan manusia.\n\nKategori utama Machine Learning:\n1. **Supervised Learning (Pembelajaran Terawasi)**: Model dilatih menggunakan data berlabel (contoh: ribuan foto kucing dan anjing lengkap dengan label namanya).\n2. **Unsupervised Learning (Tanpa Pengawasan)**: Model mencari pola atau pengelompokan (*clustering*) tersembunyi dari data tanpa label panduan.\n3. **Reinforcement Learning**: Agen AI belajar melalui sistem hadiah (*reward*) dan hukuman (*penalty*) saat berinteraksi dengan lingkungan (misal: AI pemain catur atau mobil otonom)."
+    },
+    {
+      "id": "l9_m3",
+      "levelId": 9,
+      "order": 3,
+      "title": "Jaringan Saraf Tiruan (Neural Networks)",
+      "content": "**Artificial Neural Network (ANN)** terinspirasi dari cara kerja sel saraf biologis otak manusia. Terdiri dari lapisan simpul (neuron):\n\n- **Input Layer**: Menerima fitur data mentah (misal nilai piksel gambar).\n- **Hidden Layers**: Menghitung bobot (*weights*) dan bias matematis untuk mengenali fitur abstrak (garis, sudut, bentuk wajah).\n- **Output Layer**: Memberikan probabilitas prediksi kelas (misal: 98% kemungkinan mobil sedan).\n\nTeknologi ini menjadi fondasi model bahasa besar (LLM) dan komputer visi modern."
+    },
+    {
+      "id": "l9_m4",
+      "levelId": 9,
+      "order": 4,
+      "title": "Etika dan Masa Depan Kecerdasan Buatan",
+      "content": "Pengembangan AI membawa tantangan sosial dan moral:\n\n- **Bias Algoritma**: Jika data pelatihan memuat prasangka rasial atau diskriminasi gender, model AI akan menghasilkan keputusan yang tidak adil.\n- **Hak Cipta & Kepemilikan**: Penggunaan karya cipta manusia untuk melatih AI generatif.\n- **Deepfake**: Rekayasa citra dan audio realistis yang dapat disalahgunakan untuk penipuan atau pencemaran nama baik.\n- **Pemberdayaan Manusia**: AI semestinya diposisikan sebagai alat bantu yang melipatgandakan produktivitas manusia (*augmented intelligence*) dengan regulasi keselamatan yang ketat."
+    }
+  ]
+}

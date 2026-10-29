@@ -1,0 +1,146 @@
+{
+  "levelId": 2,
+  "challenge": {
+    "type": "order_steps",
+    "title": "Urutkan Langkah Penyelesaian Masalah",
+    "instruction": "Urutkan tahapan Berpikir Komputasional berikut dari awal hingga menghasilkan solusi yang terstruktur.",
+    "steps": [
+      {"order": 1, "text": "Dekomposisi: Memecah persoalan besar menjadi bagian-bagian lebih kecil"},
+      {"order": 2, "text": "Pengenalan Pola: Mengamati kesamaan pola dengan kasus sebelumnya"},
+      {"order": 3, "text": "Abstraksi: Mengabaikan rincian yang tidak relevan dan fokus pada intinya"},
+      {"order": 4, "text": "Perancangan Algoritma: Menulis instruksi langkah demi langkah secara berurutan"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l2_q1",
+      "type": "multiple_choice",
+      "text": "Empat pilar utama dalam Berpikir Komputasional (Computational Thinking) adalah...",
+      "options": [
+        "Hardware, Software, Brainware, Network",
+        "Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma",
+        "Input, Process, Output, Storage",
+        "Variabel, Tipe Data, Perulangan, Percabangan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Empat fondasi berpikir komputasional adalah dekomposisi, pengenalan pola, abstraksi, dan perancangan algoritma."
+    },
+    {
+      "id": "l2_q2",
+      "type": "multiple_choice",
+      "text": "Seorang insinyur memecah pembuatan mobil menjadi modul mesin, sasis, rem, dan kelistrikan. Ini adalah contoh pilar...",
+      "options": [
+        "Abstraksi",
+        "Dekomposisi",
+        "Pengenalan Pola",
+        "Perulangan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dekomposisi adalah teknik memecah masalah besar yang rumit menjadi komponen-komponen kecil yang mandiri dan terkelola."
+    },
+    {
+      "id": "l2_q3",
+      "type": "multiple_choice",
+      "text": "Melihat kesamaan antara cara membuat kue bolu cokelat dan bolu vanila merupakan penerapan dari pilar...",
+      "options": [
+        "Pengenalan Pola",
+        "Dekomposisi",
+        "Abstraksi",
+        "Algoritma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pengenalan pola mencari kesamaan atau karakteristik serupa sehingga solusi yang pernah digunakan dapat diadaptasi kembali."
+    },
+    {
+      "id": "l2_q4",
+      "type": "multiple_choice",
+      "text": "Peta jalur bus TransJakarta hanya menampilkan rute dan nama halte tanpa menggambar pohon dan gedung. Hal ini mencontohkan...",
+      "options": [
+        "Algoritma greedy",
+        "Abstraksi",
+        "Dekomposisi",
+        "Rekursi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abstraksi memusatkan perhatian pada informasi penting (rute dan halte) dan menyaring informasi yang tidak esensial bagi pengguna."
+    },
+    {
+      "id": "l2_q5",
+      "type": "multiple_choice",
+      "text": "Ciri utama dari suatu algoritma yang baik adalah...",
+      "options": [
+        "Instruksinya bersifat ambigu dan memiliki banyak penafsiran",
+        "Pasti memiliki titik akhir (finiteness) dan langkah yang pasti (definiteness)",
+        "Membutuhkan memori tak terbatas untuk menyelesaikan tugas",
+        "Hanya dapat dibaca oleh satu jenis merek komputer saja"
+      ],
+      "correctIndex": 1,
+      "explanation": "Algoritma harus terbatas (selesai dalam waktu wajar) dan setiap langkahnya tidak mendua makna (definiteness)."
+    },
+    {
+      "id": "l2_q6",
+      "type": "multiple_choice",
+      "text": "Apakah Berpikir Komputasional hanya dapat diterapkan saat berada di depan komputer?",
+      "options": [
+        "Ya, karena selalu membutuhkan bahasa pemrograman seperti Python",
+        "Tidak, ini adalah cara berpikir manusia yang dapat diaplikasikan pada segala bidang kehidupan",
+        "Ya, karena computational thinking adalah bagian dari sistem operasi Windows",
+        "Hanya saat merakit perangkat elektronik sirkuit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Berpikir komputasional adalah proses kognitif memecahkan masalah yang dapat digunakan sehari-hari tanpa komputer."
+    },
+    {
+      "id": "l2_q7",
+      "type": "multiple_choice",
+      "text": "Menyusun resep memasak nasi goreng yang runtut dari menyalakan kompor hingga siap disajikan merupakan contoh...",
+      "options": [
+        "Perancangan Algoritma",
+        "Pemeriksaan Database",
+        "Enkripsi Kunci",
+        "Instalasi Firmware"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resep adalah salah satu analogi terbaik dari algoritma, yaitu urutan instruksi terencana menuju luaran yang diinginkan."
+    },
+    {
+      "id": "l2_q8",
+      "type": "multiple_choice",
+      "text": "Jika suatu masalah terlalu kompleks, langkah pertama yang paling bijak menurut computational thinking adalah...",
+      "options": [
+        "Langsung mengetik kode program tanpa perencanaan",
+        "Melakukan dekomposisi untuk mengurai masalah menjadi bagian lebih kecil",
+        "Menghapus seluruh proyek dan menyerah",
+        "Mengabaikan semua instruksi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Memulai dengan dekomposisi mempermudah pemahaman masalah dan pembagian kerja secara terstruktur."
+    },
+    {
+      "id": "l2_q9",
+      "type": "multiple_choice",
+      "text": "Dokter mendiagnosis penyakit pasien dengan mencocokkan gejala batuk dan demam dengan riwayat medis pasien sebelumnya. Dokter menerapkan...",
+      "options": [
+        "Pengenalan Pola",
+        "Format Ulang Hard Disk",
+        "Kompilasi Bahasa Mesin",
+        "Routing Paket Data"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mencocokkan gejala dengan pola penyakit yang pernah dipelajari adalah aplikasi pengenalan pola dalam dunia medis."
+    },
+    {
+      "id": "l2_q10",
+      "type": "multiple_choice",
+      "text": "Manfaat utama menguasai kemampuan Berpikir Komputasional bagi generasi muda adalah...",
+      "options": [
+        "Mampu memecahkan berbagai persoalan kompleks secara efisien, kreatif, dan sistematis",
+        "Hanya agar bisa menang turnamen game online",
+        "Membuat layar ponsel menjadi anti gores",
+        "Menghilangkan kewajiban belajar ilmu matematika"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berpikir komputasional membekali individu dengan keterampilan analitis dan pemecahan masalah kritis di era teknologi."
+    }
+  ]
+}

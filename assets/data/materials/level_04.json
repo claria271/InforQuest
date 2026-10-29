@@ -1,0 +1,33 @@
+{
+  "levelId": 4,
+  "sections": [
+    {
+      "id": "l4_m1",
+      "levelId": 4,
+      "order": 1,
+      "title": "Array dan List",
+      "content": "**Array** adalah kumpulan elemen yang bertipe data sejenis yang disimpan dalam lokasi memori berurutan dan diakses menggunakan nomor indeks.\n\nKarakteristik penting:\n- **Zero-indexed**: Elemen pertama selalu berada di indeks ke-0, elemen kedua di indeks ke-1, dst.\n- **List dinamis**: Memungkinkan penambahan dan pengurangan elemen secara fleksibel selama runtime aplikasi."
+    },
+    {
+      "id": "l4_m2",
+      "levelId": 4,
+      "order": 2,
+      "title": "Stack (Tumpukan) - Konsep LIFO",
+      "content": "**Stack** mengadopsi prinsip **LIFO (Last In, First Out)**: elemen yang terakhir dimasukkan akan menjadi elemen yang pertama kali dikeluarkan.\n\nOperasi penting pada Stack:\n- `push(item)`: Memasukkan elemen baru ke puncak tumpukan.\n- `pop()`: Mengambil dan menghapus elemen dari posisi teratas tumpukan.\n- `peek()`: Melihat elemen puncak tanpa menghapusnya.\n\nContoh penerapan nyata: Fitur *Undo/Redo* pada text editor dan riwayat tombol *Back* pada browser internet."
+    },
+    {
+      "id": "l4_m3",
+      "levelId": 4,
+      "order": 3,
+      "title": "Queue (Antrean) - Konsep FIFO",
+      "content": "**Queue** mengadopsi prinsip **FIFO (First In, First Out)**: elemen yang pertama kali masuk akan menjadi elemen yang pertama kali dilayani dan keluar.\n\nOperasi penting pada Queue:\n- `enqueue(item)`: Menambahkan elemen baru ke barisan paling belakang (rear).\n- `dequeue()`: Menghapus dan mengeluarkan elemen dari barisan paling depan (front).\n\nContoh penerapan: Antrean cetak dokumen printer (spooler) dan penanganan request server web."
+    },
+    {
+      "id": "l4_m4",
+      "levelId": 4,
+      "order": 4,
+      "title": "Pengantar Tree dan Graph",
+      "content": "Struktur data non-linear:\n\n- **Tree (Pohon)**: Struktur data hierarkis yang memiliki satu akar (*root*) dan simpul anak (*child nodes*). Contoh: struktur direktori file di hard disk komputer Anda.\n- **Graph (Graf)**: Kumpulan simpul (*vertex/nodes*) yang dihubungkan oleh sisi (*edges*). Contoh: jaringan pertemanan media sosial dan pemetaan rute terpendek di Google Maps."
+    }
+  ]
+}

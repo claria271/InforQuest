@@ -1,0 +1,142 @@
+{
+  "levelId": 4,
+  "challenge": {
+    "type": "simulate_stack",
+    "title": "Simulasi Push & Pop Stack",
+    "instruction": "Urutkan elemen yang keluar (pop) dari Stack jika urutan push adalah: 'A', lalu 'B', lalu 'C'.",
+    "correctOrder": ["C", "B", "A"],
+    "explanation": "Prinsip LIFO (Last In, First Out) memastikan elemen terakhir yang di-push ('C') keluar paling pertama saat di-pop."
+  },
+  "questions": [
+    {
+      "id": "l4_q1",
+      "type": "multiple_choice",
+      "text": "Prinsip kerja yang dianut oleh struktur data Stack (Tumpukan) adalah...",
+      "options": [
+        "FIFO (First In, First Out)",
+        "LIFO (Last In, First Out)",
+        "Random Access",
+        "Shortest Job First"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stack bekerja secara LIFO: elemen yang terakhir dimasukkan adalah elemen pertama yang akan dikeluarkan."
+    },
+    {
+      "id": "l4_q2",
+      "type": "multiple_choice",
+      "text": "Prinsip kerja struktur data Queue (Antrean) adalah...",
+      "options": [
+        "LIFO (Last In, First Out)",
+        "FIFO (First In, First Out)",
+        "Highest Priority Only",
+        "Last In, Never Out"
+      ],
+      "correctIndex": 1,
+      "explanation": "Queue menerapkan prinsip FIFO: siapa yang pertama kali masuk akan pertama kali dilayani dan keluar."
+    },
+    {
+      "id": "l4_q3",
+      "type": "multiple_choice",
+      "text": "Jika sebuah Array bernama `angka = [10, 20, 30, 40]`, berapakah nilai dari `angka[0]`?",
+      "options": [
+        "0",
+        "10",
+        "20",
+        "40"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalam kebanyakan bahasa pemrograman, array bersifat zero-indexed, sehingga indeks 0 merujuk ke elemen pertama yaitu 10."
+    },
+    {
+      "id": "l4_q4",
+      "type": "multiple_choice",
+      "text": "Operasi untuk menambahkan elemen baru ke bagian atas struktur Stack dinamakan...",
+      "options": [
+        "Pop",
+        "Push",
+        "Dequeue",
+        "InsertFront"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operasi `push` menyisipkan elemen baru ke puncak (top) dari Stack."
+    },
+    {
+      "id": "l4_q5",
+      "type": "multiple_choice",
+      "text": "Operasi untuk mengeluarkan elemen dari antrean Queue dinamakan...",
+      "options": [
+        "Enqueue",
+        "Dequeue",
+        "Push",
+        "Peek"
+      ],
+      "correctIndex": 1,
+      "explanation": "`Dequeue` mengeluarkan elemen terdepan dari Queue, sedangkan `enqueue` menambahkan elemen baru di bagian belakang."
+    },
+    {
+      "id": "l4_q6",
+      "type": "multiple_choice",
+      "text": "Contoh penerapan struktur data Stack dalam aplikasi sehari-hari adalah...",
+      "options": [
+        "Fitur Undo/Redo pada aplikasi pengolah kata",
+        "Antrean printer mencetak berkas",
+        "Lampu lalu lintas bergantian",
+        "Jadwal penerbangan pesawat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Undo mengembalikan tindakan terakhir yang dilakukan pengguna, persis seperti mengeluarkan elemen teratas dari Stack."
+    },
+    {
+      "id": "l4_q7",
+      "type": "multiple_choice",
+      "text": "Struktur data hierarkis non-linear yang memiliki satu simpul akar (root) dan simpul anak disebut...",
+      "options": [
+        "Queue",
+        "Stack",
+        "Tree",
+        "Array 1 Dimensi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tree (pohon) mengorganisir data secara hierarkis berakar cabang, seperti pohon silsilah keluarga atau sistem folder komputer."
+    },
+    {
+      "id": "l4_q8",
+      "type": "multiple_choice",
+      "text": "Struktur data yang terdiri dari simpul (nodes/vertices) dan sisi penghubung (edges) disebut...",
+      "options": [
+        "Graph",
+        "Primitive int",
+        "Boolean gate",
+        "Terminator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Graph merepresentasikan relasi jaringan antar simpul, sering dipakai pada peta rute GPS dan relasi media sosial."
+    },
+    {
+      "id": "l4_q9",
+      "type": "multiple_choice",
+      "text": "Operasi `peek()` pada Stack atau Queue berguna untuk...",
+      "options": [
+        "Menghapus seluruh elemen secara permanen",
+        "Melihat elemen terdepan/teratas tanpa menghapusnya",
+        "Mengurutkan data dari kecil ke besar",
+        "Menghubungkan ke database internet"
+      ],
+      "correctIndex": 1,
+      "explanation": "`Peek()` membaca elemen yang sedang berada di posisi siap diambil tanpa memodifikasi isi struktur data tersebut."
+    },
+    {
+      "id": "l4_q10",
+      "type": "multiple_choice",
+      "text": "Kelebihan utama menggunakan List dinamis dibandingkan Array berukuran tetap adalah...",
+      "options": [
+        "List dinamis dapat bertambah dan berkurang ukurannya secara fleksibel sesuai kebutuhan data",
+        "List dinamis tidak membutuhkan memori sama sekali",
+        "Array berukuran tetap tidak bisa menyimpan angka genap",
+        "List dinamis otomatis menghentikan komputer jika kepenuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "List dinamis mengalokasikan memori saat elemen bertambah, memudahkan pemrograman saat jumlah data tidak diketahui sejak awal."
+    }
+  ]
+}

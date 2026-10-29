@@ -1,0 +1,33 @@
+{
+  "levelId": 5,
+  "sections": [
+    {
+      "id": "l5_m1",
+      "levelId": 5,
+      "order": 1,
+      "title": "Perangkat Keras & Arsitektur Komputer",
+      "content": "Sistem komputer dibangun di atas prinsip arsitektur Von Neumann yang terdiri dari:\n\n1. **CPU (Central Processing Unit)**: Otak komputer yang mengeksekusi instruksi. Terdiri dari ALU (Arithmetic Logic Unit), CU (Control Unit), dan Register.\n2. **Input Devices**: Keyboard, mouse, mikrofon, kamera.\n3. **Output Devices**: Layar monitor, speaker, printer.\n4. **Motherboard**: Papan sirkuit utama yang menghubungkan seluruh komponen komputasi."
+    },
+    {
+      "id": "l5_m2",
+      "levelId": 5,
+      "order": 2,
+      "title": "Hierarki Memori: RAM vs Storage",
+      "content": "Komputer memiliki tingkatan memori dengan kecepatan dan volatilitas berbeda:\n\n- **Register & Cache CPU**: Paling cepat, berada langsung di dalam chip prosesor, kapasitas kecil.\n- **RAM (Random Access Memory)**: Bersifat *Volatile* (data hilang saat listrik padam). Menyimpan instruksi program yang sedang aktif dijalankan.\n- **Secondary Storage (SSD / HDD)**: Bersifat *Non-Volatile* (data permanen tersimpan walau komputer mati). Kapasitas besar, namun kecepatan transfer data lebih lambat dibandingkan RAM."
+    },
+    {
+      "id": "l5_m3",
+      "levelId": 5,
+      "order": 3,
+      "title": "Peran Sistem Operasi (OS)",
+      "content": "**Sistem Operasi (Operating System)** adalah perangkat lunak sistem yang mengelola perangkat keras komputer, sumber daya perangkat lunak, dan menyediakan layanan umum untuk program komputer.\n\nTugas utama OS:\n- Manajemen Proses (CPU scheduling & multitasking)\n- Manajemen Memori Utama\n- Manajemen Berkas dan Direktori (File System)\n- Antarmuka Pengguna (GUI / CLI) dan driver piranti."
+    },
+    {
+      "id": "l5_m4",
+      "levelId": 5,
+      "order": 4,
+      "title": "Siklus Instruksi: Fetch, Decode, Execute",
+      "content": "Setiap program komputer diterjemahkan ke dalam bahasa mesin dan dijalankan oleh CPU melalui siklus berulang:\n\n1. **Fetch**: Mengambil instruksi berikutnya dari memori utama (RAM) ke register instruksi CPU.\n2. **Decode**: Control Unit menerjemahkan kode biner instruksi menjadi sinyal kontrol.\n3. **Execute**: ALU atau komponen terkait menjalankan instruksi (misalnya operasi penjumlahan matematika atau pemindahan data).\n4. **Store**: Menyimpan hasil kalkulasi kembali ke register atau RAM."
+    }
+  ]
+}

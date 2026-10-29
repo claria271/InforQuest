@@ -1,0 +1,146 @@
+{
+  "levelId": 8,
+  "challenge": {
+    "type": "phishing_detector",
+    "title": "Deteksi Pesan & URL Phishing",
+    "instruction": "Tentukan apakah URL berikut adalah domain resmi atau jebakan phishing berbahaya.",
+    "cases": [
+      {"url": "https://www.bankmandiri.co.id/login", "isSafe": true, "reason": "Domain resmi bank dengan ekstensi negara terdaftar co.id"},
+      {"url": "http://login-mandiri-secure-verifikasi.xyz", "isSafe": false, "reason": "Domain palsu (.xyz) bukan domain resmi institusi perbankan"},
+      {"url": "https://accounts.google.com/signin", "isSafe": true, "reason": "Domain utama resmi Google dengan protokol aman HTTPS"},
+      {"url": "http://g00gle-hadiah-pemenang.top/klaim", "isSafe": false, "reason": "Typosquatting huruf 'o' diganti angka '0' dan domain mencurigakan"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l8_q1",
+      "type": "multiple_choice",
+      "text": "Teknik manipulasi psikologis untuk memancing korban memberikan kata sandi atau data pribadi disebut...",
+      "options": [
+        "Phishing (Social Engineering)",
+        "Overclocking",
+        "Data Mining",
+        "Kompilasi Cepat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phishing memanfaatkan kepanikan, iming-iming hadiah, atau otoritas palsu agar korban terkelabui memberikan data rahasia."
+    },
+    {
+      "id": "l8_q2",
+      "type": "multiple_choice",
+      "text": "Jenis malware berbahaya yang mengunci seluruh berkas korban dengan enkripsi dan meminta uang tebusan adalah...",
+      "options": [
+        "Ransomware",
+        "Adware",
+        "Cookie",
+        "Screen Saver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ransomware menyandera data pengguna dan menuntut pembayaran (biasanya kripto) untuk kunci pembuka enkripsinya."
+    },
+    {
+      "id": "l8_q3",
+      "type": "multiple_choice",
+      "text": "Manakah kriteria kata sandi yang paling aman dan tangguh terhadap serangan brute-force?",
+      "options": [
+        "12345678",
+        "Kombinasi minimal 12 karakter huruf besar, kecil, angka, dan karakter simbol khusus",
+        "Nama panggilan hewan peliharaan",
+        "Tanggal ulang tahun pemilik akun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Panjang karakter dan keragaman entropi (simbol, angka, huruf besar-kecil) membuat kata sandi sulit ditebak mesin peretas."
+    },
+    {
+      "id": "l8_q4",
+      "type": "multiple_choice",
+      "text": "Autentikasi Dua Faktor (2FA / Two-Factor Authentication) meningkatkan keamanan karena...",
+      "options": [
+        "Mengharuskan verifikasi tambahan (seperti kode OTP) selain kata sandi sebelum akses diberikan",
+        "Menghapus kebutuhan kata sandi selamanya",
+        "Membuat layar ponsel menyala lebih terang",
+        "Menggandakan kecepatan internet di rumah"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dengan 2FA, peretas yang berhasil mencuri kata sandi tetap terhalang karena tidak memiliki faktor otentikasi kedua."
+    },
+    {
+      "id": "l8_q5",
+      "type": "multiple_choice",
+      "text": "Serangan siber yang membanjiri server dengan jutaan lalu lintas data palsu agar server lumpuh dinamakan...",
+      "options": [
+        "DDoS (Distributed Denial of Service)",
+        "SQL Injection",
+        "Cross-Site Scripting",
+        "Man-in-the-Middle"
+      ],
+      "correctIndex": 0,
+      "explanation": "DDoS menggunakan jaringan botnet dari berbagai perangkat yang terinfeksi untuk menenggelamkan bandwidth atau kapasitas proses server sasaran."
+    },
+    {
+      "id": "l8_q6",
+      "type": "multiple_choice",
+      "text": "Proses mengubah teks biasa (plaintext) menjadi teks sandi yang tidak dapat dibaca tanpa kunci rahasia disebut...",
+      "options": [
+        "Enkripsi",
+        "Dekripsi",
+        "Parsing",
+        "Rendering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enkripsi melindungi kerahasiaan data saat disimpan maupun ditransmisikan melintasi jaringan internet publik."
+    },
+    {
+      "id": "l8_q7",
+      "type": "multiple_choice",
+      "text": "Perbedaan enkripsi asimetris dibandingkan enkripsi simetris adalah...",
+      "options": [
+        "Enkripsi asimetris menggunakan sepasang kunci: Public Key dan Private Key",
+        "Enkripsi asimetris tidak menggunakan matematika",
+        "Enkripsi simetris hanya berjalan di malam hari",
+        "Keduanya menggunakan kunci yang dibagikan secara bebas tanpa rahasia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enkripsi asimetris memecahkan masalah distribusi kunci rahasia dengan memisahkan kunci publik untuk menyandikan dan kunci privat untuk membuka."
+    },
+    {
+      "id": "l8_q8",
+      "type": "multiple_choice",
+      "text": "Bahaya menyambungkan laptop atau ponsel ke jaringan Wi-Fi publik gratis tanpa enkripsi adalah...",
+      "options": [
+        "Potensi serangan Man-in-the-Middle (pencurian data lalu lintas jaringan oleh peretas di jaringan yang sama)",
+        "Baterai laptop otomatis meledak",
+        "Layar monitor langsung pecah",
+        "Papan tombol keyboard tidak bisa diketik"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jaringan publik tanpa proteksi rentan terhadap sniffing paket di mana pihak ketiga dapat mengamati transmisi data tak terenkripsi."
+    },
+    {
+      "id": "l8_q9",
+      "type": "multiple_choice",
+      "text": "Tindakan pencegahan terbaik terhadap serangan malware ransomware adalah...",
+      "options": [
+        "Rutin melakukan backup data ke media penyimpanan terpisah (offline/cloud) dan selalu memperbarui sistem operasi",
+        "Membuka semua lampiran email mencurigakan",
+        "Mematikan fungsi antivirus bawaan OS",
+        "Mengunduh aplikasi bajakan dari situs tidak jelas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Backup data berkala yang terisolasi memastikan kita dapat memulihkan berkas tanpa perlu membayar pemeras saat infeksi terjadi."
+    },
+    {
+      "id": "l8_q10",
+      "type": "multiple_choice",
+      "text": "Tanda gembok terkunci pada bilah alamat peramban web (browser) menandakan bahwa...",
+      "options": [
+        "Situs tersebut menggunakan sertifikat SSL/TLS dan komunikasi data dienkripsi dengan HTTPS",
+        "Komputer Anda sedang kehabisan baterai",
+        "Situs tersebut adalah milik kepolisian negara",
+        "Browser Anda sedang mengalami kerusakan grafis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ikon gembok mengonfirmasi bahwa koneksi ke server telah terenkripsi menggunakan sertifikat keamanan digital yang sah."
+    }
+  ]
+}

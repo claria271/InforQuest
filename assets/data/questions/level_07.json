@@ -1,0 +1,146 @@
+{
+  "levelId": 7,
+  "challenge": {
+    "type": "query_builder",
+    "title": "Susun Kueri SQL Tabel Siswa",
+    "instruction": "Susun potongan klausa SQL untuk menampilkan nama dan kelas dari siswa yang memiliki nilai di atas 85.",
+    "fragments": [
+      {"order": 1, "text": "SELECT nama, kelas"},
+      {"order": 2, "text": "FROM siswa"},
+      {"order": 3, "text": "WHERE nilai > 85;"},
+      {"order": 4, "text": "ORDER BY nama ASC;"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l7_q1",
+      "type": "multiple_choice",
+      "text": "Atribut atau kolom dalam tabel basis data yang bernilai unik dan menjadi penanda tunggal setiap baris data disebut...",
+      "options": [
+        "Foreign Key",
+        "Primary Key (Kunci Utama)",
+        "Secondary Index",
+        "Alternate Field"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary Key menjamin setiap baris dalam tabel memiliki pengenal yang pasti unik dan tidak boleh bernilai NULL."
+    },
+    {
+      "id": "l7_q2",
+      "type": "multiple_choice",
+      "text": "Kolom dalam suatu tabel yang nilainya merujuk pada Primary Key di tabel lain untuk membentuk keterhubungan relasi disebut...",
+      "options": [
+        "Foreign Key (Kunci Asing)",
+        "Master Key",
+        "Public Key",
+        "Access Token"
+      ],
+      "correctIndex": 0,
+      "explanation": "Foreign Key menghubungkan baris data antar tabel relasional untuk menjaga integritas referensial."
+    },
+    {
+      "id": "l7_q3",
+      "type": "multiple_choice",
+      "text": "Perintah SQL yang digunakan untuk mengambil data dari satu atau lebih tabel adalah...",
+      "options": [
+        "INSERT",
+        "SELECT",
+        "UPDATE",
+        "DROP"
+      ],
+      "correctIndex": 1,
+      "explanation": "Klausa `SELECT` adalah perintah kueri utama dalam SQL untuk membaca dan menampilkan data dari tabel."
+    },
+    {
+      "id": "l7_q4",
+      "type": "multiple_choice",
+      "text": "Manakah perintah SQL yang tepat untuk menyaring baris data berdasarkan kriteria tertentu?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "GROUP BY",
+        "LIMIT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Klausa `WHERE` menentukan kondisi logis yang harus dipenuhi oleh record yang ingin ditampilkan atau dimanipulasi."
+    },
+    {
+      "id": "l7_q5",
+      "type": "multiple_choice",
+      "text": "Perintah SQL untuk menambahkan record data baru ke dalam tabel adalah...",
+      "options": [
+        "INSERT INTO",
+        "ADD ROW",
+        "APPEND DATA",
+        "CREATE RECORD"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sintaks standar SQL untuk menyisipkan baris baru adalah `INSERT INTO nama_tabel (kolom) VALUES (nilai)`."
+    },
+    {
+      "id": "l7_q6",
+      "type": "multiple_choice",
+      "text": "Jika ingin memperbarui nilai kolom pada baris data yang sudah ada, perintah SQL yang digunakan adalah...",
+      "options": [
+        "MODIFY",
+        "UPDATE",
+        "ALTER",
+        "CHANGE"
+      ],
+      "correctIndex": 1,
+      "explanation": "`UPDATE` digunakan untuk memodifikasi nilai data di tabel, biasanya diikuti klausa `SET` dan `WHERE`."
+    },
+    {
+      "id": "l7_q7",
+      "type": "multiple_choice",
+      "text": "Apa akibat fatal jika menjalankan perintah `DELETE FROM siswa;` tanpa menggunakan klausa `WHERE`?",
+      "options": [
+        "Hanya baris pertama yang terhapus",
+        "Seluruh data pada tabel siswa akan terhapus bersih tanpa terkecuali",
+        "Muncul peringatan eror dan operasi dibatalkan otomatis",
+        "Komputer langsung merestart secara paksa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tanpa klausa `WHERE`, perintah `DELETE` akan mengeksekusi penghapusan terhadap setiap baris yang ada di tabel."
+    },
+    {
+      "id": "l7_q8",
+      "type": "multiple_choice",
+      "text": "Perangkat lunak yang bertugas mengatur, memelihara, dan menyediakan akses aman ke basis data disebut...",
+      "options": [
+        "DBMS (Database Management System)",
+        "Antivirus Guard",
+        "Compiler Language",
+        "Text Editor"
+      ],
+      "correctIndex": 0,
+      "explanation": "DBMS (contoh: PostgreSQL, MySQL, SQLite) adalah sistem perangkat lunak untuk perancangan dan manajemen basis data."
+    },
+    {
+      "id": "l7_q9",
+      "type": "multiple_choice",
+      "text": "Proses mengorganisasi kolom dan tabel dalam basis data untuk mengurangi redundansi data dan meningkatkan integritas disebut...",
+      "options": [
+        "Normalisasi Basis Data",
+        "Defragmentasi Disk",
+        "Enkripsi Biner",
+        "Serialisasi JSON"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normalisasi meminimalkan duplikasi data yang tidak perlu serta mencegah anomali saat insert, update, dan delete."
+    },
+    {
+      "id": "l7_q10",
+      "type": "multiple_choice",
+      "text": "Klausa SQL yang digunakan untuk mengurutkan hasil keluaran data secara menurun (dari besar ke kecil) adalah...",
+      "options": [
+        "ORDER BY kolom DESC",
+        "ORDER BY kolom ASC",
+        "SORT DOWN kolom",
+        "GROUP DESC"
+      ],
+      "correctIndex": 0,
+      "explanation": "`DESC` singkatan dari descending (menurun), sedangkan `ASC` untuk ascending (menaik dari kecil ke besar)."
+    }
+  ]
+}

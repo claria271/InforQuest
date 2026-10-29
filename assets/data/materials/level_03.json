@@ -1,0 +1,40 @@
+{
+  "levelId": 3,
+  "sections": [
+    {
+      "id": "l3_m1",
+      "levelId": 3,
+      "order": 1,
+      "title": "Notasi Algoritma dan Flowchart",
+      "content": "Algoritma dapat disajikan dalam bentuk bahasa natural, pseudocode, maupun diagram alir (flowchart).\n\nSimbol standar flowchart:\n- **Oval / Terminator**: Menandai awal (Start) atau akhir (End) program.\n- **Persegi Panjang / Process**: Menyatakan operasi aritmatika atau penetapan nilai variabel.\n- **Jajar Genjang / Input-Output**: Operasi membaca input atau mencetak output data.\n- **Belah Ketupat / Decision**: Mengevaluasi kondisi benar/salah (True/False) untuk menentukan cabang aliran."
+    },
+    {
+      "id": "l3_m2",
+      "levelId": 3,
+      "order": 2,
+      "title": "Variabel dan Tipe Data",
+      "content": "**Variabel** adalah tempat di memori komputer yang digunakan untuk menampung data yang nilainya dapat berubah selama program berjalan.\n\nTipe data primitif yang wajib dikuasai:\n- `Integer` (int): Bilangan bulat, misal: 42, -5, 100.\n- `Floating point` (float/double): Bilangan berkoma/desimal, misal: 3.14, 0.75.\n- `String`: Kumpulan karakter teks, diapit tanda kutip, misal: 'Halo Dunia'.\n- `Boolean` (bool): Nilai kebenaran logika, hanya bernilai `true` atau `false`."
+    },
+    {
+      "id": "l3_m3",
+      "levelId": 3,
+      "order": 3,
+      "title": "Struktur Percabangan (Branching)",
+      "content": "Percabangan memungkinkan komputer mengambil keputusan berdasarkan kondisi logika tertentu:\n\n1. **If-Else**:\n```dart\nif (nilai >= 80) {\n  print('Lulus!');\n} else {\n  print('Belum lulus, coba lagi.');\n}\n```\n2. **If - Else If - Else**: Digunakan ketika terdapat lebih dari dua pilihan kondisi alternatif.\n3. **Switch-Case**: Lebih bersih untuk memilih aksi berdasarkan nilai diskrit tertentu (misal: menu pilihan 1, 2, atau 3)."
+    },
+    {
+      "id": "l3_m4",
+      "levelId": 3,
+      "order": 4,
+      "title": "Struktur Perulangan (Loops)",
+      "content": "Perulangan digunakan untuk mengeksekusi blok instruksi berkali-kali tanpa menulis kode berulang kali:\n\n- **For Loop**: Digunakan saat jumlah perulangan sudah diketahui pasti.\n```dart\nfor (int i = 1; i <= 5; i++) {\n  print('Iterasi ke: $i');\n}\n```\n- **While Loop**: Berjalan selama kondisi ekspresi bernilai `true`.\n- **Do-While Loop**: Blok instruksi minimal dijalankan satu kali terlebih dahulu sebelum memeriksa kondisi."
+    },
+    {
+      "id": "l3_m5",
+      "levelId": 3,
+      "order": 5,
+      "title": "Fungsi dan Modularitas Kode",
+      "content": "**Fungsi (Function)** adalah sekumpulan baris kode yang diberi nama spesifik, dapat menerima argumen (parameter), dan mengembalikan suatu nilai hasil pemrosesan.\n\nManfaat modularitas fungsi:\n- **Reusability**: Kode dapat dipanggil berulang kali di berbagai tempat tanpa duplikasi.\n- **Maintainability**: Jika ada kekeliruan perhitungan, perbaikan cukup dilakukan di satu tempat fungsi tersebut."
+    }
+  ]
+}

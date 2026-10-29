@@ -1,0 +1,147 @@
+{
+  "levelId": 3,
+  "challenge": {
+    "type": "code_blocks",
+    "title": "Susun Blok Kode Perulangan",
+    "instruction": "Susun potongan blok kode berikut agar mencetak angka 1 sampai 5 secara berurutan.",
+    "blocks": [
+      {"order": 1, "code": "int counter = 1;"},
+      {"order": 2, "code": "while (counter <= 5) {"},
+      {"order": 3, "code": "  print(counter);"},
+      {"order": 4, "code": "  counter = counter + 1;"},
+      {"order": 5, "code": "}"}
+    ]
+  },
+  "questions": [
+    {
+      "id": "l3_q1",
+      "type": "multiple_choice",
+      "text": "Struktur kontrol yang dipakai untuk mengulang instruksi selama kondisi terpenuhi disebut...",
+      "options": [
+        "Percabangan",
+        "Perulangan (Looping)",
+        "Variabel",
+        "Konstanta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perulangan (loop) menjalankan satu atau beberapa instruksi berulang kali selama kondisi bernilai true."
+    },
+    {
+      "id": "l3_q2",
+      "type": "multiple_choice",
+      "text": "Simbol belah ketupat (diamond) pada diagram alir (flowchart) digunakan untuk...",
+      "options": [
+        "Menandai awal/akhir alur",
+        "Menyatakan operasi masukan data",
+        "Pengambilan keputusan / evaluasi kondisi logika",
+        "Menyambungkan kabel jaringan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Simbol belah ketupat (decision) digunakan untuk menguji kondisi benar/salah guna menentukan alur program."
+    },
+    {
+      "id": "l3_q3",
+      "type": "multiple_choice",
+      "text": "Manakah di bawah ini yang merupakan tipe data untuk menampung bilangan bulat?",
+      "options": [
+        "String",
+        "Boolean",
+        "Integer (int)",
+        "Double"
+      ],
+      "correctIndex": 2,
+      "explanation": "Integer (int) adalah tipe data bilangan bulat tanpa nilai desimal (seperti 10, -3, 0)."
+    },
+    {
+      "id": "l3_q4",
+      "type": "multiple_choice",
+      "text": "Jika `x = 7`, berapakah nilai `x > 10` dalam evaluasi boolean?",
+      "options": [
+        "true",
+        "false",
+        "null",
+        "error"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena 7 tidak lebih besar dari 10, maka hasil perbandingannya bernilai false."
+    },
+    {
+      "id": "l3_q5",
+      "type": "multiple_choice",
+      "text": "Berapa kali teks 'Halo' dicetak oleh potongan kode: `for (int i = 0; i < 4; i++) { print('Halo'); }`?",
+      "options": [
+        "3 kali",
+        "4 kali",
+        "5 kali",
+        "Tak terhingga"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nilai `i` berjalan dari 0, 1, 2, 3 (total 4 kali). Saat `i = 4`, kondisi `i < 4` bernilai false sehingga perulangan berhenti."
+    },
+    {
+      "id": "l3_q6",
+      "type": "multiple_choice",
+      "text": "Perbedaan utama perulangan `while` dan `do-while` adalah...",
+      "options": [
+        "`do-while` minimal mengeksekusi instruksi 1 kali sebelum memeriksa kondisi",
+        "`while` selalu berjalan tak terhingga",
+        "`do-while` tidak boleh memiliki variabel",
+        "Keduanya sama persis tanpa perbedaan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pada `do-while`, pemeriksaan kondisi berada di akhir blok, sehingga instruksi di dalamnya dijamin berjalan minimal satu kali."
+    },
+    {
+      "id": "l3_q7",
+      "type": "multiple_choice",
+      "text": "Konsep memecah program menjadi sub-program yang dinamai dan dapat digunakan berulang kali disebut...",
+      "options": [
+        "Fungsi / Prosedur (Functions)",
+        "Kompilasi Biner",
+        "Format Partisi",
+        "Pengkabelan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungsi/prosedur memfasilitasi modularitas kode, mencegah duplikasi, dan mempermudah pengujian kode."
+    },
+    {
+      "id": "l3_q8",
+      "type": "multiple_choice",
+      "text": "Operator logika yang menghasilkan nilai TRUE hanya jika KEDUA operan bernilai TRUE adalah...",
+      "options": [
+        "OR (||)",
+        "AND (&&)",
+        "NOT (!)",
+        "XOR"
+      ],
+      "correctIndex": 1,
+      "explanation": "Operator logika AND (&&) mensyaratkan kedua syarat terpenuhi sekaligus untuk menghasilkan nilai kebenaran true."
+    },
+    {
+      "id": "l3_q9",
+      "type": "multiple_choice",
+      "text": "Kesalahan penulisan aturan tata bahasa dalam kode sumber yang menyebabkan program gagal dikompilasi disebut...",
+      "options": [
+        "Syntax Error",
+        "Runtime Error",
+        "Logical Error",
+        "Hardware Error"
+      ],
+      "correctIndex": 0,
+      "explanation": "Syntax error terjadi ketika aturan tata bahasa pemrograman dilanggar (misalnya lupa titik koma atau salah penulisan kurung)."
+    },
+    {
+      "id": "l3_q10",
+      "type": "multiple_choice",
+      "text": "Manakah contoh ekspresi percabangan multi-kondisi yang paling tepat saat mengevaluasi nilai rapor?",
+      "options": [
+        "if ... else if ... else",
+        "for ... while ... do",
+        "import ... export ... package",
+        "class ... object ... struct"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pernyataan berantai `if - else if - else` ideal untuk mengelompokkan kategori nilai seperti A, B, C, atau D."
+    }
+  ]
+}
